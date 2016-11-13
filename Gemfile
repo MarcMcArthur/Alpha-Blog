@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# Use bootstrap for front-end
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -26,6 +27,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+# rails_12factor
+gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
